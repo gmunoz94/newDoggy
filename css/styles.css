@@ -4240,6 +4240,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
+    align-items: center;
   }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
@@ -11293,11 +11294,37 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 .bg-image-full {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
+  margin-top: 86px;
+  height: 714px;
+}
+
+.bookBtn {
+  font-family: 'theHound';
+  font-size: 2rem;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .bg-image-full {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin-top: 62px;
+    height: 200px;
+  }
+
+  .navbar-brand {
+    font-family: 'theHound';
+    font-size: 1.5rem;
+    color: white;
+  }
 }
 
 #services .container-fluid, #services .container-sm, #services .container-md, #services .container-lg, #services .container-xl, #services .container-xxl {
@@ -11350,7 +11377,7 @@ textarea.form-control-lg {
   text-transform: uppercase;
 }
 #services .container-fluid .portfolio-box .portfolio-box-caption .project-name, #services .container-sm .portfolio-box .portfolio-box-caption .project-name, #services .container-md .portfolio-box .portfolio-box-caption .project-name, #services .container-lg .portfolio-box .portfolio-box-caption .project-name, #services .container-xl .portfolio-box .portfolio-box-caption .project-name, #services .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem;
+  font-size: 3rem;
 }
 #services .container-fluid .portfolio-box2 .portfolio-box-caption .project-name, #services .container-sm .portfolio-box2 .portfolio-box-caption .project-name, #services .container-md .portfolio-box2 .portfolio-box-caption .project-name, #services .container-lg .portfolio-box2 .portfolio-box-caption .project-name, #services .container-xl .portfolio-box2 .portfolio-box-caption .project-name, #services .container-xxl .portfolio-box2 .portfolio-box-caption .project-name {
   font-size: 1.2rem;
@@ -11368,4 +11395,12 @@ textarea.form-control-lg {
   top: 0;
   left: 0;
   z-index: 99;
+}
+
+#services {
+  font-family: 'theHound';
+}
+
+.hound-text {
+  font-family: 'theHound';
 }

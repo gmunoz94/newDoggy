@@ -51,10 +51,10 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Activate SimpleLightbox plugin for portfolio items
     new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
+        elements: '#services a.portfolio-box'
     });
     new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box2'
+        elements: '#services a.portfolio-box2'
     });
 
 });
