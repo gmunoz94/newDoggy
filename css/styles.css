@@ -11401,7 +11401,7 @@ textarea.form-control-lg {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(21, 71, 52, 0.9);
+  background: rgba(196,162,51, .8);
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -11417,7 +11417,7 @@ textarea.form-control-lg {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: #154734;
+  background: rgba(196,162,51, .8);
   transition: opacity 0.25s ease;
   text-align: center;
 }
