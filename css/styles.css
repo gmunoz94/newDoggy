@@ -11303,6 +11303,23 @@ textarea.form-control-lg {
   margin-top: 86px;
   height: 714px;
 }
+.bg-image-full-service {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  margin-top: 86px;
+  height: 714px;
+  background-position-y: -140px;
+}
+.bg-image-full-about {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  margin-top: 86px;
+  height: 714px;
+}
 
 .bookBtn {
   font-family: 'theHound';
@@ -11319,6 +11336,23 @@ textarea.form-control-lg {
     margin-top: 62px;
     height: 650px;
   }
+  .bg-image-full-service {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin-top: 62px;
+    height: 370px;
+    background-position-y: -65px;
+  }
+  .bg-image-full-about {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin-top: 62px;
+    height: 480px;
+  }
 
   .navbar-brand {
     font-family: 'theHound';
@@ -11329,6 +11363,22 @@ textarea.form-control-lg {
 
 @media (max-width: 1181px) {
   .bg-image-full {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin-top: 82px;
+    height: 600px;
+  }
+  .bg-image-full-service {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin-top: 82px;
+    height: 600px;
+  }
+  .bg-image-full-about {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
@@ -11353,6 +11403,22 @@ textarea.form-control-lg {
     margin-top: 62px;
     height: 400px;
   }
+  .bg-image-full-service {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin-top: 62px;
+    height: 400px;
+  }
+  .bg-image-full-about {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin-top: 62px;
+    height: 400px;
+  }
   
   .navbar-brand {
     font-family: 'theHound';
@@ -11363,6 +11429,22 @@ textarea.form-control-lg {
 
 @media (max-width: 600px) {
   .bg-image-full {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin-top: 62px;
+    height: 200px;
+  }
+  .bg-image-full-service {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin-top: 62px;
+    height: 200px;
+  }
+  .bg-image-full-about {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
@@ -11405,6 +11487,22 @@ textarea.form-control-lg {
   transition: opacity 0.25s ease;
   text-align: center;
 }
+#services .container-fluid .portfolio-box .portfolio-box-caption2, #services .container-sm .portfolio-box .portfolio-box-caption2, #services .container-md .portfolio-box .portfolio-box-caption2, #services .container-lg .portfolio-box .portfolio-box-caption2, #services .container-xl .portfolio-box .portfolio-box-caption2, #services .container-xxl .portfolio-box .portfolio-box-caption2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(196,162,51, .8);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
 #services .container-fluid .portfolio-box2 .portfolio-box-caption, #services .container-sm .portfolio-box2 .portfolio-box-caption, #services .container-md .portfolio-box2 .portfolio-box-caption, #services .container-lg .portfolio-box2 .portfolio-box-caption, #services .container-xl .portfolio-box2 .portfolio-box-caption, #services .container-xxl .portfolio-box2 .portfolio-box-caption {
   display: flex;
   align-items: center;
@@ -11427,17 +11525,20 @@ textarea.form-control-lg {
   font-weight: 600;
   text-transform: uppercase;
 }
-#services .container-fluid .portfolio-box .portfolio-box-caption .project-name, #services .container-sm .portfolio-box .portfolio-box-caption .project-name, #services .container-md .portfolio-box .portfolio-box-caption .project-name, #services .container-lg .portfolio-box .portfolio-box-caption .project-name, #services .container-xl .portfolio-box .portfolio-box-caption .project-name, #services .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 3rem;
-}
-#services .container-fluid .portfolio-box2 .portfolio-box-caption .project-name, #services .container-sm .portfolio-box2 .portfolio-box-caption .project-name, #services .container-md .portfolio-box2 .portfolio-box-caption .project-name, #services .container-lg .portfolio-box2 .portfolio-box-caption .project-name, #services .container-xl .portfolio-box2 .portfolio-box-caption .project-name, #services .container-xxl .portfolio-box2 .portfolio-box-caption .project-name {
+#services .container-fluid .portfolio-box .portfolio-box-caption2 .project-name, #services .container-sm .portfolio-box .portfolio-box-caption2 .project-name, #services .container-md .portfolio-box .portfolio-box-caption2 .project-name, #services .container-lg .portfolio-box .portfolio-box-caption2 .project-name, #services .container-xl .portfolio-box .portfolio-box-caption2 .project-name, #services .container-xxl .portfolio-box .portfolio-box-caption2 .project-name {
   font-size: 1.2rem;
 }
-#services .container-fluid .portfolio-box:hover .portfolio-box-caption, #services .container-sm .portfolio-box:hover .portfolio-box-caption, #services .container-md .portfolio-box:hover .portfolio-box-caption, #services .container-lg .portfolio-box:hover .portfolio-box-caption, #services .container-xl .portfolio-box:hover .portfolio-box-caption, #services .container-xxl .portfolio-box:hover .portfolio-box-caption {
+#services .container-fluid .portfolio-box2 .portfolio-box-caption2 .project-name, #services .container-sm .portfolio-box2 .portfolio-box-caption2 .project-name, #services .container-md .portfolio-box2 .portfolio-box-caption2 .project-name, #services .container-lg .portfolio-box2 .portfolio-box-caption2 .project-name, #services .container-xl .portfolio-box2 .portfolio-box-caption2 .project-name, #services .container-xxl .portfolio-box2 .portfolio-box-caption2 .project-name {
+  font-size: 1.2rem;
+}
+#services .container-fluid .portfolio-box .portfolio-box-caption, #services .container-sm .portfolio-box .portfolio-box-caption, #services .container-md .portfolio-box .portfolio-box-caption, #services .container-lg .portfolio-box .portfolio-box-caption, #services .container-xl .portfolio-box .portfolio-box-caption, #services .container-xxl .portfolio-box .portfolio-box-caption {
   opacity: 1;
 }
-#services .container-fluid .portfolio-box2 .portfolio-box-caption, #services .container-sm .portfolio-box .portfolio-box-caption, #services .container-md .portfolio-box2 .portfolio-box-caption, #services .container-lg .portfolio-box2 .portfolio-box-caption, #services .container-xl .portfolio-box2 .portfolio-box-caption, #services .container-xxl .portfolio-box2 .portfolio-box-caption {
+#services .container-fluid .portfolio-box:hover .portfolio-box-caption2, #services .container-sm .portfolio-box:hover .portfolio-box-caption2, #services .container-md .portfolio-box:hover .portfolio-box-caption2, #services .container-lg .portfolio-box:hover .portfolio-box-caption2, #services .container-xl .portfolio-box:hover .portfolio-box-caption2, #services .container-xxl .portfolio-box:hover .portfolio-box-caption2 {
   opacity: 1;
+}
+#services .container-fluid .portfolio-box:hover .portfolio-box-caption, #services .container-sm .portfolio-box:hover .portfolio-box-caption, #services .container-md .portfolio-box:hover .portfolio-box-caption, #services .container-lg .portfolio-box:hover .portfolio-box-caption, #services .container-xl .portfolio-box:hover .portfolio-box-caption, #services .container-xxl .portfolio-box:hover .portfolio-box-caption {
+  opacity: 0;
 }
 
 .top-img {
