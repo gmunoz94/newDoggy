@@ -11327,6 +11327,10 @@ textarea.form-control-lg {
   color: white;
 }
 
+.divider-mobile {
+  display: none;
+}
+
 @media (max-width: 1397px) {
   .bg-image-full {
     background-repeat: no-repeat;
@@ -11457,6 +11461,10 @@ textarea.form-control-lg {
     font-family: 'theHound';
     font-size: 1.5rem;
     color: white;
+  }
+  
+  .divider-mobile {
+    display: block;
   }
 }
 
