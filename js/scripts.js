@@ -1,10 +1,12 @@
 /*!
-* Start Bootstrap - Full Width Pics v5.0.4 (https://startbootstrap.com/template/full-width-pics)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-full-width-pics/blob/master/LICENSE)
+* Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
+* Copyright 2013-2022 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+//
+// Scripts
+// 
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -47,14 +49,6 @@ window.addEventListener('DOMContentLoaded', event => {
                 navbarToggler.click();
             }
         });
-    });
-
-    // Activate SimpleLightbox plugin for portfolio items
-    new SimpleLightbox({
-        elements: '#services a.portfolio-box'
-    });
-    new SimpleLightbox({
-        elements: '#services a.portfolio-box2'
     });
 
 });

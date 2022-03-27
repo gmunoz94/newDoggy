@@ -12,68 +12,235 @@
         <title>Soggy Doggy Mobile Grooming</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/logo.png" />
-        <link rel="apple-touch-icon" href="assets/icon.jpg" />
-
+        <link rel="apple-touch-icon" href="assets/logo.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-214385539-1">
-        </script>
     </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#top">Soggy Doggy</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                        <li class="nav-item"><a class="nav-link bookBtn btn btn-danger" href="book.html">Book Now</a></li>
+                <a class="navbar-brand hound-text" href="#page-top">Soggy Doggy Mobile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#team">Book a Groom</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">View Price List</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style="background-image: url('./assets/truckIMG.jpg')">
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">A paw-sonalized grooming experience for your pups</div>
+                <div class="masthead-heading text-uppercase">All-Inclusive Spa Experience</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Book a Groom</a>
+                <a class="btn btn-outline-primary btn-xl text-uppercase" href="#services">View Price List</a>
+            </div>
         </header>
-        <!-- Content section-->
-        <section  id="about" class="py-5">
-            <div class="container my-3">
-                <div class="row justify-content-center Raleway">
-                    <div class="col-lg-6 text-center">
-                        <h2>All-Inclusive Spa Experience</h2>
-                        <p class="lead">A bath, nail trim, and ear cleaning is included with EVERY grooming/bathing package.</p>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-dark" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h3 class="section-subheading text-muted">Check out what services we have to offer</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <div class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/1.png" alt="..." />
+                            </div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Bath</div>
+                                <div class="portfolio-caption-subheading text-muted">A Bath package includes High Quality Shampoo and Conditioner, Coat Brush Out, Nail Trim, Ear Clean, and Cologne. </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <div class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/2.png" alt="..." />
+                            </div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Bath with Haircut</div>
+                                <div class="portfolio-caption-subheading text-muted">A Bath with Haircut package includes everything a bath does with a haircut.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <div class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/3.png" alt="..." />
+                            </div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">De-Shedding</div>
+                                <div class="portfolio-caption-subheading text-muted">Add-on shampoo and conditioner formulated to allow removal of excess, dead hair. Special techniques used to brush and blow out excess, dead hair.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <div class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/4.png" alt="..." />
+                            </div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Facial Scrub & Paw Cream</div>
+                                <div class="portfolio-caption-subheading text-muted">Add-on available to help with removal of eye-boogers and paw cream to help with cracks and soften paw pads.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <div class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/5.png" alt="..." />
+                            </div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Flea & Tick</div>
+                                <div class="portfolio-caption-subheading text-muted">Add-on shampoo specially formulated to remove fleas with a topical treatment to prevent fleas up to 30 days.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <div class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/6.png" alt="..." />
+                            </div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Nail Filing</div>
+                                <div class="portfolio-caption-subheading text-muted">Add-on available to smooth rough edges after cutting nails. Gets nails shorter and soft.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <div class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/7.png" alt="..." />
+                            </div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Teeth-Brushing</div>
+                                <div class="portfolio-caption-subheading text-muted">Add-on available to help prevent plaque and build-up.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <div class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/8.png" alt="..." />
+                            </div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Anal Gland Expression</div>
+                                <div class="portfolio-caption-subheading text-muted">Add-on available to externally express anal glands.</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Portfolio-->
-        <div id="services">
-            <div class="container-fluid p-0 mb-5">
-                <div class="row g-0 justify-content-center">
-                    <div class="col-lg-4 col-sm-6">
-                        <img class="img-fluid" src="assets/akcSAFE.jpg" alt="..." />
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+            </div>
+        </section>
+        <!-- About -->
+        <section class="page-section bg-dark" id="about">
+            <div class="container">
+                <div class="row text-muted">
+                    <div class="col-md-6 col-sm-12">
+                        <h1 class="large-title text-center text-primary">About Mobile Grooming</h1>
+                        <hr class="divider">
+                        <div class="rte clearfix">
+                            <br>
+                            <h3>What is mobile grooming?</h3>
+                            <p class="px-3">It is professional grooming self-contained in a custom van that arrives at your door to take care of your pup's grooming needs. Mobile dog grooming is preferred by most of today's busy pet owners. The convenience for you and the exclusive attention for your pet make it desirable to use our mobile dog grooming service.  The inverter furnishes electricity to the dryer, table, clippers, A/C, vacuum, lights and more.  A hot water heater ensures the perfect bath temperature and a therapeutic bathing system cleans and soothes your pet.</p>
+                            <br>
+                            <h3>But isn't mobile grooming expensive?</h3>
+                            <p class="px-3">You will pay more for mobile grooming. But the benefits far outweigh the additional cost.</p>
+                            <br>
+                            <h3>Why should I choose mobile grooming?</h3>
+                            <ul>
+                                <li>Mobile grooming is convenient.</li>
+                                <li>We come right to your doorstep.</li>
+                                <li>No car sickness.</li>
+                                <li>You save Time and Gas.</li>
+                                <li>NO soggy doggies in your car!</li>
+                            </ul>
+                            <br>
+                            <h3>Can I be in the truck with you when you groom my dog?</h3>
+                            <p class="px-3">In our experience, this is usually not a good idea. You are your dog's favorite person, so when you are present during grooming, your dog will be focused on you and not on sitting still for or cooperating with the service. There may be some occasions where the dog's owner will be called upon to help calm or hold the dog during certain parts of the service, but generally the grooming should be a one-on-one experience between the dog and the groomer.</p>
+                            <br>
+                            <h3>What is the price?</h3>
+                            <p class="px-3">All telephone/text quotes are estimates and can only be confirmed after initial examination of your dog's condition and the time allotment required to complete the services. Prices will vary depending on size, condition of coat, temperament of dog, and haircut. </p>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <img class="img-fluid" src="assets/fearFree.png" alt="..." />
+                    <div class="col-md-6 col-sm-12">
+                        <img class="aboutImg" src="./assets/img/interior.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Mad Max LLC.</p></div>
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row flex-reverse-row align-items-center">
+                    <div class="col-lg-4 text-lg-start">&copy; 2022 Soggy Doggy Mobile Grooming</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/soggydoggymobile/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/soggydoggymobile" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.google.com/maps/place/Soggy+Doggy+Mobile/@29.437574,-98.461727,10z/data=!4m5!3m4!1s0x0:0x924dc124d1b987af!8m2!3d29.437574!4d-98.461727" target="_blank" aria-label="Google"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+            </div>
         </footer>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
