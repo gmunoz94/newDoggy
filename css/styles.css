@@ -11802,3 +11802,15 @@ section#contact form#contactForm :-ms-input-placeholder {
     height: 450px;
   }
 }
+
+.bottomImg img {
+  max-height: 193px;
+  max-width: 155px;
+}
+
+@media (max-width: 480px) {
+  .bottomImg img {
+    max-height: 138px;
+    max-width: 117px;
+  }
+}
