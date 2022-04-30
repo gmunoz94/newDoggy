@@ -11813,4 +11813,16 @@ section#contact form#contactForm :-ms-input-placeholder {
     max-height: 138px;
     max-width: 117px;
   }
+
+  header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url(../assets/img/header-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: -648px center;
+    background-size: cover;
+  }
 }
